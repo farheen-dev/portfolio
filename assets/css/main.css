@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&family=Ubuntu:wght@300&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  height: 100vh;
+  width:100vw;
+  overflow-x: hidden;
+}
+
+#particles-js{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#overlay {
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.myborder {
+  /* border-color: #6e07f3 !important; */
+  background-color: #ffffff;
+  color: #6e07f3;
+  border-color: #6e07f3 !important;
+}
+
+.nav-link:hover {
+  background-color: #6e07f3;
+  border-color: #6e07f3 !important;
+  color: #ffffff;
+  /* background-color: #6e07f3;
+  color: #ffffff; */
+}
+
+span {
+  /* background-color: #1fd1f9; */
+  /* background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%); */
+  color: #6e07f3;
+}
+
+.imgprofile {
+  width: 90%;
+}
+
+.section3 {
+  background-color: #6e07f3;
+  color: #ffffff;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.section4{
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-top: -5% !important;
+  margin-left: 13% !important;
+}
+
+.fabbutton .btn-circle {
+  width: 50px;
+  height: 50px;
+  padding: 12px 18px;
+  border-radius: 30px;
+  font-size: 13px;
+  text-align: center;
+  border-color: #6e07f3 !important;
+  background-color: #ffffff;
+  color: #6e07f3;
+  border-width: 2px;
+}
+
+.fabbutton .btn-circle:hover {
+  background-color: #6e07f3;
+  border-color: #ffffff !important;
+  color: #ffffff;
+}
+
+#myBtn{
+  display: none;
+}
+
+.vr{
+  opacity: .10;
+}
+
+.has-text-success {
+  color: #5BE9B9 !important;
+}
+
+.has-text-dark {
+  color: #141c3a !important;
+}
+
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 75%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: hsl(217, 88.2%, 90%);
+  color: #6e07f3;
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardw{
+  position:relative;
+  background-color: #F1f1f8;
+}
+
+/* Add arrows to the right container (pointing left) */
+.cardw::before {
+  content: " ";
+  width:15px;
+  height:15px;
+  top: 4%;
+  left:-1.5%;
+  position: absolute;
+  box-shadow: #ffffff;
+  border-top: opx solid black;
+  border-bottom: 1px solid var(--bs-border-color-translucent);
+  border-left: 1px solid var(--bs-border-color-translucent);
+  border-right: opx solid black;
+  transform: rotate(45deg);
+  background: #F1f1f8;
+}
+
+.footersection{
+  background-color: #6e07f3;
+  color: #ffffff;
+}
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #141c3a;
+  color:#ffffff;
+  opacity: 0;
+}
+
+.hovercard .card-img-overlay{
+  transition: .5s ease-in-out;
+}
+
+.hovercard:hover .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #141c3a;
+  color:#ffffff;
+  opacity: 1;
+}
+
+.cardbtn{
+ text-decoration: none;
+ border-color: #6e07f3 !important;
+ color: #ffffff;
+ background-color: #141c3a;
+}
+
+.cardbtn:hover {
+  background-color: #6e07f3;
+  border-color: #6e07f3 !important;
+  color: #ffffff;
+}
+
+.section6 img{
+  height:120px;
+  width: 190px;
+}
+
+.contactme{
+ background-color: #141c3a;
+ width: 75%;
+ margin: 0% 13%;
+ margin-top: -27%;
+}
+
+.contactme .title{
+color: #ffffff;
+}
+
+.contactme a{
+  text-decoration: none;
+  padding: 5px;
+  border-color: #5BE9B9 !important;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.contactme a:hover{
+  padding: 5px;
+  border-width: 2px;
+  border-color: #5BE9B9;
+  background-color: #5BE9B9;
+  color: #000000;
+}
+
+
+.moto{
+  max-width: 300px;
+}
+
+.socialLinks button{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  border-color: #ffffff !important;
+  background-color: #6e07f3;
+  color: #ffffff;
+  border-width: 2px;
+}
+
+.footersection .socialLinks .btn-circle:hover {
+  background-color: #ffffff;
+  border-color: #ffffff !important;
+  color:#6e07f3;
+}
+
+/*Meida Queries*/
+@media all and (max-width: 1650px) {
+  
+}
+
+@media all and (max-width: 1600px) {
+  
+}
+
+@media all and (max-width: 1550px) {
+  
+}
+
+@media all and (max-width: 1500px) {
+ 
+}
+
+@media all and (max-width: 1450px) {
+ 
+}
+
+@media all and (max-width: 1350px) {
+ 
+}
+
+@media all and (max-width: 1300px) {
+  
+}
+
+@media all and (max-width: 1250px) {
+  
+}
+
+@media all and (max-width: 1200px) {
+ 
+}
+
+@media all and (max-width: 1150px) {
+ 
+}
+
+@media all and (max-width: 1100px) {
+ 
+}
+
+@media all and (max-width: 1050px) {
+
+}
+
+@media all and (max-width: 1000px) {
+ 
+}
+
+@media all and (max-width: 950px) {
+ 
+}
+
+@media all and (max-width: 900px) {
+ 
+}
+
+@media all and (max-width: 950px) {
+ 
+}
+
+@media all and (max-width: 850px) {
+ 
+}
+
+@media all and (max-width: 800px) {
+
+}
+
+@media all and (max-width: 750px) {
+ 
+}
+
+@media all and (max-width: 700px) {
+  
+}
+
+@media all and (max-width: 650px) {
+ 
+}
+
+@media all and (max-width: 600px) {
+  
+}
+
+@media all and (max-width: 550px) {
+
+}
+
+@media all and (max-width: 500px) {
+  
+}
