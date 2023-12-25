@@ -238,7 +238,7 @@ span {
  background-color: #141c3a;
  width: 75%;
  margin: 0% 13%;
- margin-top: -27%;
+ margin-top: -30rem;
 }
 
 .contactme .title{
@@ -361,21 +361,77 @@ color: #ffffff;
 }
 
 @media all and (max-width: 700px) {
-  
+  .navbar{
+    padding: 0 10% !important;
+    margin: 0 !important;
+  }
 }
 
 @media all and (max-width: 650px) {
- 
+  .navbar{
+    padding: 0 10% !important;
+    margin: 0 !important;
+  }
 }
 
 @media all and (max-width: 600px) {
-  
+  .navbar{
+    padding: 0 10% !important;
+    margin: 0 !important;
+  }
 }
 
 @media all and (max-width: 550px) {
+  .navbar{
+    padding: 0 10% !important;
+    margin: 0 !important;
+  }
 
 }
 
 @media all and (max-width: 500px) {
-  
+  .navbar{
+    padding: 0% 10% !important;
+    margin: 0% !important;
+  }
+  .section3{
+    padding:8% !important;
+  }
+  .section3 p{
+    width: 100%;
+    padding:0% !important;
+    margin: 0% !important;
+    font-size: 1.15rem !important;
+  }
+  /* .fabbutton .btn-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  } */
+  .contactme{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width:90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -32rem !important;
+  }
+  .contactme h2{
+   font-size: larger;
+   margin-right: 0% !important;
+   padding-bottom: 5%;
+  }
+  .contactme p{
+    font-size: medium;
+    font-weight: 0!important;
+    padding:0 5% !important;
+    margin-right: 0% !important;
+   }
+  .contactme a{
+    padding:0.7rem 1rem !important;
+    font-size: medium;
+   }
 }
