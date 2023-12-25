@@ -391,8 +391,18 @@ color: #ffffff;
 
 @media all and (max-width: 500px) {
   .navbar{
-    padding: 0% 10% !important;
+    padding: 0% 8% !important;
     margin: 0% !important;
+  }
+  .navbar .logo{
+    padding-right:10% !important;
+    width:109px !important;
+    height:109px !important;
+    padding-top:5% !important;
+  }
+  .navbar .navbar-toggler{
+    padding:2% 2% !important;
+    font-size: medium;
   }
   .section3{
     padding:8% !important;
