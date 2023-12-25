@@ -97,7 +97,7 @@ span {
 .section4{
   background-color: #FFFFFF;
   color: #000000;
-  margin-top: -5% !important;
+  margin-top: -6rem !important;
   margin-left: 13% !important;
 }
 
@@ -387,17 +387,45 @@ color: #ffffff;
     padding:2% 2% !important;
     font-size: medium;
   }
+  .section4{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard{
+    margin:0% !important;
+    width: 100% !important;
+  }
   .section5{
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
     padding:0% !important;
-    margin: 2% 5% !important;
-    margin-left: 10% !important;
+    margin-bottom: 0% !important;
+    margin-right:1% !important;
+    margin-left: 5% !important;
   }
   .section5 .hovercard{
-    margin-bottom: 8% !important;
+    margin-bottom: 10% !important;
+    padding:0% !important;
+  }
+  .section6 .section6Items {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .section6 .section6Items div{
+    display: flex !important;
+    flex-direction: row !important;
+    margin-right:  5% !important;
+    margin-bottom: 5% !important;
   }
   .section3{
     padding:8% !important;
