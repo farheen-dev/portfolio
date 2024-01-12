@@ -431,12 +431,14 @@ color: #ffffff;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
+    margin-right:25% !important;
   }
   .section6 .section6Items div{
     display: flex !important;
     flex-direction: row !important;
     margin-right:  5% !important;
     margin-bottom: 5% !important;
+    gap:35% !important;
   }
   .section3{
     padding:8% !important;
@@ -466,7 +468,10 @@ color: #ffffff;
   .contactme p{
     font-size: medium;
     font-weight: 0!important;
-    padding:0 5% !important;
+    padding-top: 2% !important;
+    padding-bottom:0 5% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
     margin-right: 0% !important;
    }
   .contactme a{
