@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&family=Ubuntu:wght@300&display=swap");
 
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
   height: 100vh;
@@ -7,7 +13,11 @@ body {
   overflow-x: hidden;
 }
 
-#particles-js{
+html {
+  scroll-behavior: smooth;
+}
+
+#particles-js {
   position: fixed;
   top: 0;
   right: 0;
@@ -230,8 +240,9 @@ span {
 }
 
 .section6 img{
-  height:120px;
-  width: 190px;
+  height:100px;
+  width: 100px;
+  border: none;
 }
 
 .contactme{
@@ -373,9 +384,6 @@ color: #ffffff;
 }
 
 @media all and (max-width: 500px) {
-  .body{
-    overflow: hidden;
-  }
   .navbar{
     padding: 0% 8% !important;
     margin: 0% !important;

@@ -1,50 +1,3 @@
-// import * as THREE from 'three';
-
-// let camera, scene, renderer, cube;
-// let container = document.getElementById("new1");
-
-// function init() {
-//     scene = new THREE.Scene();
-//     camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-    
-//     renderer = new THREE.WebGLRenderer({alpha: true, antialias:true});
-//     renderer.setSize( container.offsetWidth, container.offsetHeight );
-//     container.appendChild( renderer.domElement );
-    
-//     const geometry = new THREE.BoxGeometry( 2, 2, 2 );
-//     const texture = new THREE.TextureLoader().load( "/my_portfolio/assets/img/txt2.jpg" );
-//     const material = new THREE.MeshBasicMaterial( { map: texture } );
-//     cube = new THREE.Mesh( geometry, material );
-//     scene.add( cube );
-    
-//     camera.position.z = 5;
-// }
-
-// function animate() {
-// 	requestAnimationFrame( animate );
-
-// 	// cube.rotation.x += 0.01;
-// 	cube.rotation.y += 0.01;
-
-// 	renderer.render( scene, camera );
-// }
-
-// function onWindowResize() {
-// 	// Camera frustum aspect ratio
-// 	camera.aspect = window.innerWidth / window.innerHeight;
-// 	// After making changes to aspect
-// 	camera.updateProjectionMatrix();
-// 	// Reset size
-// 	renderer.setSize(container.offsetWidth, container.offsetHeight);
-// }
-
-// window.addEventListener('resize', onWindowResize, false);
-
-// init()
-// animate();
-
-
-
 ///////////////////////////////
 // For Typing part of HTML
 let typed = new Typed(".auto-type", {
@@ -54,7 +7,6 @@ let typed = new Typed(".auto-type", {
   loop:true
 })
 ///////////////////////////////
-
 
 
 ///////////////////////////////
