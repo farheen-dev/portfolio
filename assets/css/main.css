@@ -290,89 +290,170 @@ span {
 }
 
 /*Meida Queries*/
-@media all and (max-width: 1650px) {
+@media screen and (max-width: 1650px) {
 }
 
-@media all and (max-width: 1600px) {
+@media screen and (max-width: 1600px) {
 }
 
-@media all and (max-width: 1550px) {
+@media screen and (max-width: 1550px) {
 }
 
-@media all and (max-width: 1500px) {
+@media screen and (max-width: 1500px) {
 }
 
-@media all and (max-width: 1450px) {
+@media screen and (max-width: 1450px) {
 }
 
-@media all and (max-width: 1350px) {
+@media screen and (max-width: 1350px) {
 }
 
-@media all and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
 }
 
-@media all and (max-width: 1250px) {
+@media screen and (max-width: 1250px) {
 }
 
-@media all and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 }
 
-@media all and (max-width: 1150px) {
+@media screen and (max-width: 1150px) {
 }
 
-@media all and (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
 }
 
-@media all and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
 }
 
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 }
 
-@media all and (max-width: 950px) {
-}
-
-@media all and (max-width: 900px) {
-}
-
-@media all and (max-width: 950px) {
-}
-
-@media all and (max-width: 850px) {
-}
-
-@media all and (max-width: 800px) {
-}
-
-@media all and (max-width: 750px) {
-}
-
-@media all and (max-width: 700px) {
-}
-
-@media all and (max-width: 650px) {
-}
-
-@media all and (max-width: 600px) {
-}
-
-@media all and (max-width: 550px) {
-}
-
-@media all and (max-width: 500px) {
+/* working media */
+@media (min-width: 901px) and (max-width: 950px) {
   .navbar {
     padding: 0% 8% !important;
     margin: 0% !important;
   }
   .navbar .logo {
     padding-right: 10% !important;
-    width: 109px !important;
-    height: 109px !important;
+    width: 170px !important;
+    height: 170px !important;
     padding-top: 5% !important;
   }
   .navbar .navbar-toggler {
     padding: 2% 2% !important;
-    font-size: medium;
+    font-size: large;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.2rem !important;
+  }
+  /* .section4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard {
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 105% !important;
+  } */
+  .section5 {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 1% !important;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    margin-right: 2% !important;
+    margin-left: 1% !important;
+  }
+  .section5 .hovercard {
+    width: 46% !important;
+    margin-bottom: 5% !important;
+    padding: 0% !important;
+  }
+  .section6 .section6Items {
+    padding: 0% !important;
+    margin: 0% !important;
+    margin-top: 10% !important;
+    flex-wrap: wrap !important;
+    gap: 7.3% !important;
+  }
+  .section6 div {
+    margin: 0% !important;
+    margin-bottom: 10% !important;
+  }
+  .section6 div:nth-child(9) {
+    display: none !important;
+  }
+  .contactme {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -30rem !important;
+    gap: 15% !important;
+  }
+  .contactme h2 {
+    font-size: larger;
+    margin-right: 0% !important;
+  }
+  .contactme p {
+    font-size: larger;
+    font-weight: 0 !important;
+    padding-top: 2% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactme a {
+    padding: 0.7rem 1rem !important;
+    font-size: large;
+  }
+}
+
+@media (min-width: 851px) and (max-width: 900px) {
+  .navbar {
+    padding: 0% 8% !important;
+    margin: 0% !important;
+  }
+  .navbar .logo {
+    padding-right: 10% !important;
+    width: 160px !important;
+    height: 160px !important;
+    padding-top: 5% !important;
+  }
+  .navbar .navbar-toggler {
+    padding: 2% 2% !important;
+    font-size: large;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.2rem !important;
   }
   .section4 {
     display: flex !important;
@@ -387,12 +468,799 @@ span {
   .section4 .educationcard {
     margin: 0% !important;
     padding: 0% !important;
-    width: 120% !important;
+    width: 105% !important;
   }
-  /* .section4 .universitysec {
+  .section5 {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 1% !important;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    margin-right: 2% !important;
+    margin-left: 1% !important;
   }
-  .section .cardw {
-  } */
+  .section5 .hovercard {
+    width: 46% !important;
+    margin-bottom: 5% !important;
+    padding: 0% !important;
+  }
+  .section6 .section6Items {
+    padding: 0% !important;
+    margin: 0% !important;
+    margin-top: 10% !important;
+    flex-wrap: wrap !important;
+    gap: 7.3% !important;
+  }
+  .section6 div {
+    margin: 0% !important;
+    margin-bottom: 10% !important;
+  }
+  .section6 div:nth-child(9) {
+    display: none !important;
+  }
+  .contactme {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -30rem !important;
+    gap: 7% !important;
+  }
+  .contactme h2 {
+    font-size: larger;
+    margin-right: 0% !important;
+  }
+  .contactme p {
+    font-size: large;
+    font-weight: 0 !important;
+    padding-top: 2% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactme a {
+    padding: 0.7rem 1rem !important;
+    font-size: large;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 850px) {
+  .navbar {
+    padding: 0% 8% !important;
+    margin: 0% !important;
+  }
+  .navbar .logo {
+    padding-right: 10% !important;
+    width: 160px !important;
+    height: 160px !important;
+    padding-top: 5% !important;
+  }
+  .navbar .navbar-toggler {
+    padding: 2% 2% !important;
+    font-size: large;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.2rem !important;
+  }
+  .section4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard {
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 105% !important;
+  }
+  .section5 {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 1% !important;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    margin-right: 2% !important;
+    margin-left: 1.5% !important;
+  }
+  .section5 .hovercard {
+    width: 46% !important;
+    margin-bottom: 5% !important;
+    padding: 0% !important;
+  }
+  .section6 .section6Items {
+    padding: 0% !important;
+    margin: 0% !important;
+    margin-top: 10% !important;
+    flex-wrap: wrap !important;
+    gap: 7.3% !important;
+  }
+  .section6 div {
+    margin: 0% !important;
+    margin-bottom: 10% !important;
+  }
+  .section6 div:nth-child(9) {
+    display: none !important;
+  }
+  .contactme {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -30rem !important;
+    gap: 7% !important;
+  }
+  .contactme h2 {
+    font-size: larger;
+    margin-right: 0% !important;
+  }
+  .contactme p {
+    font-size: large;
+    font-weight: 0 !important;
+    padding-top: 2% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactme a {
+    padding: 0.7rem 1rem !important;
+    font-size: large;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 800px) {
+  .navbar {
+    padding: 0% 8% !important;
+    margin: 0% !important;
+  }
+  .navbar .logo {
+    padding-right: 10% !important;
+    width: 145px !important;
+    height: 145px !important;
+    padding-top: 5% !important;
+  }
+  .navbar .navbar-toggler {
+    padding: 2% 2% !important;
+    font-size: large;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.15rem !important;
+  }
+  .section4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard {
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 110% !important;
+  }
+  .section5 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    margin-right: 2% !important;
+    margin-left: 4% !important;
+  }
+  .section5 .hovercard {
+    margin-bottom: 10% !important;
+    padding: 0% !important;
+  }
+  .section6 .section6Items {
+    padding: 0% !important;
+    margin: 0% !important;
+    margin-top: 10% !important;
+    flex-wrap: wrap !important;
+    gap: 7.3% !important;
+  }
+  .section6 div {
+    margin: 0% !important;
+    margin-bottom: 10% !important;
+  }
+  .section6 div:nth-child(9) {
+    display: none !important;
+  }
+  .contactme {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -30rem !important;
+    gap: 7% !important;
+  }
+  .contactme h2 {
+    font-size: larger;
+    margin-right: 0% !important;
+  }
+  .contactme p {
+    font-size: large;
+    font-weight: 0 !important;
+    padding-top: 2% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactme a {
+    padding: 0.7rem 1rem !important;
+    font-size: large;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 750px) {
+  .navbar {
+    padding: 0% 8% !important;
+    margin: 0% !important;
+  }
+  .navbar .logo {
+    padding-right: 10% !important;
+    width: 145px !important;
+    height: 145px !important;
+    padding-top: 5% !important;
+  }
+  .navbar .navbar-toggler {
+    padding: 2% 2% !important;
+    font-size: large;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.15rem !important;
+  }
+  .section4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard {
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 110% !important;
+  }
+  .section5 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    margin-right: 2% !important;
+    margin-left: 4% !important;
+  }
+  .section5 .hovercard {
+    margin-bottom: 10% !important;
+    padding: 0% !important;
+  }
+  .section6 .section6Items {
+    padding: 0% !important;
+    margin: 0% !important;
+    margin-top: 10% !important;
+    flex-wrap: wrap !important;
+    gap: 7.3% !important;
+  }
+  .section6 div {
+    margin: 0% !important;
+    margin-bottom: 10% !important;
+  }
+  .section6 div:nth-child(9) {
+    display: none !important;
+  }
+  .contactme {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -30rem !important;
+    gap: 7% !important;
+  }
+  .contactme h2 {
+    font-size: larger;
+    margin-right: 0% !important;
+  }
+  .contactme p {
+    font-size: large;
+    font-weight: 0 !important;
+    padding-top: 2% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactme a {
+    padding: 0.7rem 1rem !important;
+    font-size: large;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 700px) {
+  .navbar {
+    padding: 0% 8% !important;
+    margin: 0% !important;
+  }
+  .navbar .logo {
+    padding-right: 10% !important;
+    width: 118px !important;
+    height: 118px !important;
+    padding-top: 5% !important;
+  }
+  .navbar .navbar-toggler {
+    padding: 2% 2% !important;
+    font-size: large;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.15rem !important;
+  }
+  .section4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard {
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 110% !important;
+  }
+  .section5 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    margin-right: 2% !important;
+    margin-left: 4% !important;
+  }
+  .section5 .hovercard {
+    margin-bottom: 10% !important;
+    padding: 0% !important;
+  }
+  .section6 .section6Items {
+    padding: 0% !important;
+    margin: 0% !important;
+    margin-top: 10% !important;
+    flex-wrap: wrap !important;
+    gap: 7.3% !important;
+  }
+  .section6 div {
+    margin: 0% !important;
+    margin-bottom: 10% !important;
+  }
+  .section6 div:nth-child(9) {
+    display: none !important;
+  }
+  .contactme {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -30rem !important;
+    gap: 7% !important;
+  }
+  .contactme h2 {
+    font-size: larger;
+    margin-right: 0% !important;
+  }
+  .contactme p {
+    font-size: large;
+    font-weight: 0 !important;
+    padding-top: 2% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactme a {
+    padding: 0.7rem 1rem !important;
+    font-size: large;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 650px) {
+  .navbar {
+    padding: 0% 8% !important;
+    margin: 0% !important;
+  }
+  .navbar .logo {
+    padding-right: 10% !important;
+    width: 118px !important;
+    height: 118px !important;
+    padding-top: 5% !important;
+  }
+  .navbar .navbar-toggler {
+    padding: 2% 2% !important;
+    font-size: large;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.15rem !important;
+  }
+  .section4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard {
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 115% !important;
+  }
+  .section5 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    margin-right: 1% !important;
+    margin-left: 5% !important;
+  }
+  .section5 .hovercard {
+    margin-bottom: 10% !important;
+    padding: 0% !important;
+  }
+  .section6 .section6Items {
+    padding: 0% !important;
+    margin: 0% !important;
+    margin-top: 10% !important;
+    flex-wrap: wrap !important;
+    gap: 10% !important;
+  }
+  .section6 div {
+    margin: 0% !important;
+    margin-bottom: 10% !important;
+  }
+  .contactme {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -30rem !important;
+    gap: 5% !important;
+  }
+  .contactme h2 {
+    font-size: larger;
+    margin-right: 0% !important;
+  }
+  .contactme p {
+    font-size: large;
+    font-weight: 0 !important;
+    padding-top: 2% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactme a {
+    padding: 0.7rem 1rem !important;
+    font-size: medium;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 600px) {
+  .navbar {
+    padding: 0% 8% !important;
+    margin: 0% !important;
+  }
+  .navbar .logo {
+    padding-right: 10% !important;
+    width: 118px !important;
+    height: 118px !important;
+    padding-top: 5% !important;
+  }
+  .navbar .navbar-toggler {
+    padding: 2% 2% !important;
+    font-size: large;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.15rem !important;
+  }
+  .section4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard {
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 115% !important;
+  }
+  .section5 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    margin-right: 1% !important;
+    margin-left: 5% !important;
+  }
+  .section5 .hovercard {
+    margin-bottom: 10% !important;
+    padding: 0% !important;
+  }
+  .section6 .section6Items {
+    padding: 0% !important;
+    margin: 0% !important;
+    margin-top: 10% !important;
+    flex-wrap: wrap !important;
+    gap: 10% !important;
+  }
+  .section6 div {
+    margin: 0% !important;
+    margin-bottom: 10% !important;
+  }
+  .contactme {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -30rem !important;
+    gap: 4% !important;
+  }
+  .contactme h2 {
+    font-size: larger;
+    margin-right: 0% !important;
+  }
+  .contactme p {
+    font-size: medium;
+    font-weight: 0 !important;
+    padding-top: 2% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactme a {
+    padding: 0.7rem 1rem !important;
+    font-size: medium;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 550px) {
+  .navbar {
+    padding: 0% 8% !important;
+    margin: 0% !important;
+  }
+  .navbar .logo {
+    padding-right: 10% !important;
+    width: 118px !important;
+    height: 118px !important;
+    padding-top: 5% !important;
+  }
+  .navbar .navbar-toggler {
+    padding: 2% 2% !important;
+    font-size: medium;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.15rem !important;
+  }
+  .section4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard {
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 115% !important;
+  }
+  .section5 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0% !important;
+    margin-bottom: 0% !important;
+    margin-right: 1% !important;
+    margin-left: 5% !important;
+  }
+  .section5 .hovercard {
+    margin-bottom: 10% !important;
+    padding: 0% !important;
+  }
+  .section6 .section6Items {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .section6 .section6Items div img {
+    margin-bottom: 0% !important;
+  }
+  .section6 .section6Items div:nth-child(1),
+  .section6 .section6Items div:nth-child(2),
+  .section6 .section6Items div:nth-child(3),
+  .section6 .section6Items div:nth-child(4),
+  .section6 .section6Items div:nth-child(5),
+  .section6 .section6Items div:nth-child(6),
+  .section6 .section6Items div:nth-child(7),
+  .section6 .section6Items div:nth-child(8),
+  .section6 .section6Items div:nth-child(9) {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0% !important;
+    margin-bottom: 15% !important;
+    gap: 30% !important;
+  }
+  .contactme {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    padding: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    margin-top: -32rem !important;
+  }
+  .contactme h2 {
+    font-size: larger;
+    margin-right: 0% !important;
+    padding-bottom: 5%;
+  }
+  .contactme p {
+    font-size: large;
+    font-weight: 0 !important;
+    padding-top: 2% !important;
+    padding-bottom: 0 5% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactme a {
+    padding: 0.7rem 1rem !important;
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    padding: 0% 8% !important;
+    margin: 0% !important;
+  }
+  .navbar .logo {
+    padding-right: 10% !important;
+    width: 109px !important;
+    height: 109px !important;
+    padding-top: 5% !important;
+  }
+  .navbar .navbar-toggler {
+    padding: 2% 2% !important;
+    font-size: medium;
+  }
+  .section3 {
+    padding: 8% !important;
+  }
+  .section3 p {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+    font-size: 1.15rem !important;
+  }
+  .section4 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin-top: -3rem !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .section4 .educationcard {
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 115% !important;
+  }
   .section5 {
     display: flex !important;
     flex-direction: column !important;
@@ -420,15 +1288,6 @@ span {
     margin-right: 5% !important;
     margin-bottom: 5% !important;
     gap: 35% !important;
-  }
-  .section3 {
-    padding: 8% !important;
-  }
-  .section3 p {
-    width: 100%;
-    padding: 0% !important;
-    margin: 0% !important;
-    font-size: 1.15rem !important;
   }
   .contactme {
     display: flex !important;
