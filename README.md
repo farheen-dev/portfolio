@@ -4,4 +4,4 @@ Developed using :
  - HTML
  - CSS
  - Javscript
- - Boostrap
+ - Bootstrap
